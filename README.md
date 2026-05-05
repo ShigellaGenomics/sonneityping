@@ -1,6 +1,8 @@
 # UPDATE MAY 2026
 ## This script has now been superseded by [mykrobeshig](https://github.com/ShigellaGenomics/mykrobeshig), which supports both the *S. sonnei* and *S. flexneri* genotyping schemes implemented in Mykrobe.
 
+In addition to being compatible with both schemes, this newer version removes the requirement to have pandas installed, and is easier to install on your system.
+
 The original script here is now inside the `archive` folder within this repo.
 
 ---
