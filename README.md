@@ -1,6 +1,12 @@
-[![DOI](https://zenodo.org/badge/211027360.svg)](https://zenodo.org/badge/latestdoi/211027360)
+# UPDATE MAY 2026
+## This script has now been superseded by [mykrobeshig](https://github.com/ShigellaGenomics/mykrobeshig), which supports both the *S. sonnei* and *S. flexneri* genotyping schemes implemented in Mykrobe.
 
-# parse_mykrobe_predict.py
+The original script here is now inside the `archive` folder within this repo.
+
+---
+
+
+### parse_mykrobe_predict.py usage (Now superseded by [mykrobeshig](https://github.com/ShigellaGenomics/mykrobeshig))
 
 This script parses Mykrobe predict results for *Shigella sonnei*. 
 
@@ -9,6 +15,8 @@ Mykrobe v0.9.0+ can identify input genomes as _S. sonnei_, assign those identifi
 Details of the genotyping scheme are available in the paper [Hawkey et al, 2021, Nature Communications](https://www.nature.com/articles/s41467-021-22700-4). Proposals for new genotype definitions to be added to the scheme can be submitted as an Issue in this repository.
 
 This script can be used to parse the resulting JSON files output by Mykrobe (one per genome), and tabulate the results in a single tab-delimited file [(example below)](#example-output).
+
+[![DOI](https://zenodo.org/badge/211027360.svg)](https://zenodo.org/badge/latestdoi/211027360)
 
 ## Dependencies for parser script
 * Python 3.7+
